@@ -97,4 +97,4 @@ terraform test
 
 ## License
 
-MIT License. See [LICENSE](./LICENSE) for full text.
+MIT License. See [LICENSE](https://github.com/almsid/terraform-aws-lambda-function/blob/master/LICENSE) for full text.

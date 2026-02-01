@@ -1,4 +1,4 @@
-# AWS Lambda Terraform Function Module
+# Terraform AWS Lambda Function Module
 
 ![Terraform Version](https://img.shields.io/badge/terraform-%3E%3D1.9.0-purple)
 ![AWS Provider](https://img.shields.io/badge/provider-aws-orange)
@@ -97,4 +97,4 @@ terraform test
 
 ## License
 
-MIT License. See [LICENSE](./LICENSE) for full text.
+MIT License. See [LICENSE](https://github.com/almsid/terraform-aws-lambda-function/blob/master/LICENSE) for full text.

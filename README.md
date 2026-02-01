@@ -2,7 +2,7 @@
 
 ![Terraform Version](https://img.shields.io/badge/terraform-%3E%3D1.9.0-purple)
 ![AWS Provider](https://img.shields.io/badge/provider-aws-orange)
-![Tests](https://github.com/almsid/terraform-aws-lambda-function/actions/workflows/test.yml/badge.svg)
+![Tests](https://github.com/almsid/terraform-aws-lambda-function/actions/workflows/tests.yml/badge.svg)
 
 A reusable Terraform module to deploy an AWS Lambda function with its associated IAM role and CloudWatch Log Group. This module adheres to AWS best practices, ensuring your function is secure and observable by default.
 

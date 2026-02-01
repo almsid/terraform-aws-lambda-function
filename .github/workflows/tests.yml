@@ -1,0 +1,28 @@
+name: Terraform Module Tests
+on: [push, pull_request]
+
+jobs:
+  test:
+    name: "Test Module"
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v2
+        with:
+          terraform_version: 1.9.0
+
+      - name: Create Test Fixture Zip
+        run: |
+          cd tests/fixtures
+          zip -r payload.zip index.py
+          ls -l payload.zip
+
+      - name: Terraform Init
+        run: terraform init
+
+      - name: Terraform Test
+        run: terraform test
